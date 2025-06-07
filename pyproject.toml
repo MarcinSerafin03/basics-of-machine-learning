@@ -8,9 +8,12 @@ readme = "README.md"
 requires-python = "==3.11.*"
 
 dependencies = [
+    "arfs>=3.0.0",
+    "boruta>=0.4.3",
     "feature-engine",
     "imbalanced-learn",
     "jupyter",
+    "lightgbm>=4.6.0",
     "matplotlib",
     "pandas==2.*",
     "pillow",
@@ -23,6 +26,8 @@ dependencies = [
     "sentence_transformers",
     "torch",
     "tqdm",
+    "umap>=0.1.1",
+    "umap-learn>=0.5.7",
     "xgboost",
 ]
 
